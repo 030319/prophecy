@@ -1,0 +1,19 @@
+<view class="list1">
+    <view><navigator url="../tianxiapage/tianxiapage" hover-class="buling">
+    <image src="../../img/返回键.png" class="icon" ></image>
+    </navigator></view>
+  </view>
+
+<!-- <view class="tips">
+    预言榜
+</view> -->
+
+<view class="list">
+    <button class="list_btn1" >
+        <!-- <image class="right"  src="/img/令牌.jpg"></image> -->
+        神级预言</button>
+    <button class="list_btn2">天机预言</button>
+    <button class="list_btn3">人气话题</button>
+    <button class="list_btn4">神奇侦探</button>
+    <button class="list_btn5">神级推理</button>
+</view>

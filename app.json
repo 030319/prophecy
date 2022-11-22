@@ -1,0 +1,108 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/tianxiapage/tianxiapage",
+    "pages/transmission/transmission",
+    "pages/afterTransmitted/afterTransmitted",
+    "pages/story/story",
+    
+    
+    "pages/prophecylist/prophecylist",
+
+    "pages/index/index",
+    "pages/sharePrePost/sharePrePost",
+    
+    "pages/prePostComments/prePostComments",
+    "pages/PrePosting/PrePosting",
+    "pages/prePostDetail/prePostDetail",
+    
+    "pages/xinpage/xinpage",
+    "pages/myinfo/myinfo",
+    
+
+    "pages/preSubsequent/perSubsequent",
+    "pages/prezhentan/prezhentan",
+    
+    
+
+    "pages/AskPosting/AskPosting",
+
+    "pages/backhistory/backhistory",
+    "pages/gofuture/gofuture",
+
+    "pages/beforeResult/beforeResult",
+    
+
+    "pages/pageCommentSection/pageCommentSection",
+    "pages/shareMyself/shareMyself",
+    "pages/shareOthers/shareOthers",
+    
+    
+    "pages/afterResult/afterResult",
+
+    "pages/agreement/agreement",
+    
+    "pages/seePost/seePost",
+    "pages/question-ask/question-ask",
+  
+    "pages/Posting/Posting",
+ 
+    "pages/logs/logs",
+    "pages/setting/setting",
+    "pages/shoucang/shoucang",
+    "pages/kefu/kefu",
+    "pages/rule/rule",
+    "pages/change/change",
+    "pages/xin/xin",
+
+    "pages/popularPost/popularPost",
+    "pages/popularPlayer/popularPlayer",
+    "pages/amazingProphecy/amazingProphecy"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#d3b17d",
+    "list": [
+      {
+        "pagePath": "pages/xinpage/xinpage",
+        "text": "页面切换",
+        "iconPath": "img/页面切换.jpg",
+        "selectedIconPath": "img/页面切换.jpg"
+      },
+     
+    {
+      "pagePath": "pages/shoucang/shoucang",
+      "text": "收藏",
+      "iconPath": "img/星星.png",
+      "selectedIconPath": "img/星星.png"
+    },
+    {
+      "pagePath": "pages/kefu/kefu",
+      "text": "客服",
+      "iconPath": "img/客服.png",
+      "selectedIconPath": "img/客服.png"
+    },
+    {
+      "pagePath": "pages/rule/rule",
+      "text": "玩法规则",
+      "iconPath": "img/玩法与规则.png",
+      "selectedIconPath": "img/玩法与规则.png"
+    },
+    {
+      "pagePath": "pages/setting/setting",
+      "text": "设置",
+      "iconPath": "img/设置.png",
+      "selectedIconPath": "img/设置.png"
+    }
+  ]
+  },
+
+
+  "sitemapLocation": "sitemap.json"
+}

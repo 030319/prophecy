@@ -1,0 +1,85 @@
+/* .page{
+    background-image: url(https://img-blog.csdnimg.cn/7231a442548145339dac69ed05c408d8.jpeg);
+    height: 100%;
+    width: 100%;
+} */
+page{
+  background-image: url(https://img-blog.csdnimg.cn/7231a442548145339dac69ed05c408d8.jpeg);
+}
+.list1{
+    position: relative;
+    display: flex;
+  justify-content:space-between;
+    flex-direction: row;
+  }
+  
+.icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+  } 
+.tips{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rpx 15rpx;
+    padding: 20rpx 0;
+    font-size: 23px;
+    border-bottom: 2rpx solid;
+   
+}
+.list{
+    height: 60%;
+    padding: 20rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.list_btn1{
+    margin-top: 30%;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 5rpx solid;
+    line-height: 25px;
+    
+}
+.list_btn2{
+  margin-top: 100%;
+  /* margin-left: 10%; */
+  border-radius: 20px;
+  background-color: transparent;
+  border: 5rpx solid;
+  line-height: 25px;
+  
+}
+.list_btn3{
+  margin-top: 0%;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 5rpx solid;
+  line-height: 25px;
+}
+.list_btn4{
+  margin-top: 100%;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 5rpx solid;
+  line-height: 25px;
+}
+.list_btn5{
+  margin-top: 30%;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 5rpx solid;
+  line-height: 25px;
+}
+/* .button{
+  height: 900rpx;
+  width: 100% ;
+  color: white;
+  font-size: 30rpx ;
+} */

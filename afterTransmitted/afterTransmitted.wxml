@@ -1,0 +1,23 @@
+<view class="list1">
+    <view><navigator url="../transmission/transmission" hover-class="buling" >
+    <image src="../../img/返回键.png" class="icon" ></image>
+    </navigator></view>
+  </view>
+<view class="container">
+  <view class="title" 
+        id="title"
+        >
+        <!-- style="margin-top:{{statusBarHeight*2+'px'}};" -->
+    <text>{{postClass}}</text>
+    
+  </view>
+  <view class="areasOpts" wx:if="{{!isSelected}}">
+    <view wx:for="{{areaParts}}"
+          wx:for-item="item"
+          wx:for-index="index"
+          wx:key="index"
+          bindtap="selectarea">{{item}}</view>
+  </view>
+  <showAreaList scrollHeight="{{scrollHeight}}"
+                wx:if="{{isSelected}}"></showAreaList>
+</view>

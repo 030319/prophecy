@@ -1,0 +1,72 @@
+
+
+<view>
+  <view class="list1">
+    <view><navigator url="../xinpage/xinpage" hover-class="buling" open-type='switchTab'>
+    <image src="../../img/返回键.png" class="icon" ></image>
+    </navigator></view>
+  </view>
+  <view class="infoPart" style="margin-top:{{statusBarHeight*1+'px'}}">
+    <view class="headline">
+      <p>用户ID</p>
+      <text>关注 10</text>
+      <text>粉丝 50</text>
+      <view bindtap="tapSetting">设置</view>
+    </view>
+    <view class="avatar">
+      <div class="touXiangKuang">
+        <image src="cloud://stu21csykf-7glvtu0y3905f887.7374-stu21csykf-7glvtu0y3905f887-1305368009/image/预览头像.png"></image>
+      </div>
+      <view class="userName">
+        <!-- <view>昵称 女</view> -->
+        <view>
+          
+          <text>侦探家</text>
+          <text>预言家</text>
+          
+        </view>
+      </view>
+
+      <!-- <view class="infomation">
+        预言准确率、预言跟票数、侦探准确率、侦探支持数
+        <text>预言准确率</text>
+        <text>预言跟票数</text>
+      </view> -->
+
+    </view>
+    <view class="userData">
+      <view>
+        <text>总参与度 100</text>
+        <text>获得跟票数 100</text>
+        <text>获赞 200</text>
+      </view>
+      <view>
+        <text>相对准确率（历史类）</text>
+        <text>相对准确率（现代类）</text>
+      </view>
+    </view>
+    <view class="signature">
+      <text>用户签名</text>
+    </view>
+  </view>
+  <view class="postPart">
+    <view class="filterBtn">筛选</view>
+    <view class="ansList">
+      <view>目录</view>
+      <scroll-view  style="height:{{scrollViewH+'px'}}"
+                    id="scrollView"
+                    scroll-y="true">
+        <view wx:for="{{ansList}}"
+              wx:for-index="index"
+              wx:for-item="item"
+              wx:key="index"
+              class="ansItem">
+          <view>{{item.question}}</view>
+          <view>{{item.ans}}</view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <InfoSetting style="display:{{tapSetting?'block':'none'}}"></InfoSetting>
+    
+</view>
